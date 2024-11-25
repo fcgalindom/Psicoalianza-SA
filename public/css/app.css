@@ -1,0 +1,211 @@
+.bg-siderbar-felipe {
+    background-color: #3834ec;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-header {
+    color: white !important;
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffff;
+    background: linear-gradient(to right, #3834ec, #004e83) !important;
+}
+
+.btn-sidebar {
+    color: white !important;
+}
+
+.brand-text {
+    color: white !important;
+}
+
+.btn-general {
+    color: #3834ec !important;
+    border: 1px solid #3834ec !important;
+    border-radius: 12px !important;
+}g
+
+.list-group-item {
+    color: #3834ec !important;
+}
+
+.search-title .text-light {
+    color: #6f6dee !important;
+}
+
+.page-item.active .page-link {
+    background-color: #3834ec !important;
+    border-color: #3834ec !important;
+    color: white !important;
+}
+
+.page-link {
+    color: #3834ec !important;
+}
+
+.custom-header {
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* Asegúrate de que esté sobre otros elementos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo-bottom {
+    position: absolute; /* Fija el logo en la pantalla */
+    bottom: 20px; /* Distancia desde el borde inferior */
+    left: 85%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Ajusta el centrado exacto */
+  }
+
+
+  .employmheader {
+    background-color:#F5F5F5 !important ; /* Gris personalizado (puedes cambiar este valor) */
+    color: #989898 !important; /* Texto blanco */ 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.employmedit{
+    background-color:#3737EC !important ; /* Gris personalizado (puedes cambiar este valor) */
+    color: white !important; /* Texto blanco */ 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+}
+  
+.circular-input {
+    border-radius: 3rem;
+}
+.button-cancelar{
+border-radius: 3rem !important; margin-right:2rem !important; background-color: #D2D2D2 !important; color:#989898  !important;
+}
+.button-save{
+    border-radius: 3rem !important;  background-color: #3737EC !important; color: white !important;
+}
+.caja-flecha{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+.theadstyle{
+    background-color: #F5F5F5 !important; ;
+}
+.table {
+    border-collapse: separate !important; /* Evita que los bordes se mezclen */
+    border-spacing: 0 10px !important; /* Agrega un espacio entre las filas */
+  }
+  
+   .table th {
+    border: none !important; /* Elimina los bordes de las celdas */
+  }
+  
+  .table tbody tr {
+    border-left: 2px solid #000 !important; /* Borde inicial en la izquierda */
+    border-right: 2px solid #000 !important; /* Borde derecho (opcional) */
+  }
+  
+  .table tbody tr:first-child {
+    border-top: 2px solid #000 !important; /* Borde superior en la primera fila */
+  }
+  
+  .table tbody tr:last-child {
+    border-bottom: 2px solid #000 !important; /* Borde inferior en la última fila */
+  }
+
+
+
+
+  .pagination .page-link {
+    color: #4a00e0 !important; /* Color del texto */
+    font-size: 18px;
+    border: none !important; /* Elimina bordes cuadrados */
+    border-radius: 50% !important; /* Diseño circular */
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: transparent !important; /* Fondo transparente si no está activo */
+    color: #4a00e0 !important; /* Color morado */
+  }
+  
+  .pagination .page-link:hover {
+    background-color: #e0e0e0 !important; /* Fondo azul/morado en hover */
+    color: #fff !important; /* Texto blanco en hover */
+    border-radius: 50% !important; /* Asegurar diseño circular */
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px; /* Espaciado entre elementos */
+  }
+  
+  .pagination .page-item.active:hover .page-link {
+    background-color: #e0e0e0 !important; /* Cambia al hover incluso en el número activo */
+    color: #fff !important; /* Texto blanco en hover */
+  }
+
+  .input-with-icon {
+    position: relative !important;
+  }
+
+  .input-with-icon input {
+    padding-left: 2.5rem !important; /* Espacio para el ícono */
+  }
+
+  .input-with-icon .icon {
+    position: absolute !important;
+    left: 10px !important; /* Ajusta la posición horizontal del ícono */
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    color: #6c757d !important; /* Color del ícono */
+    pointer-events: none !important; /* Evita que el ícono interfiera con el clic */
+  }
+
+  .contenedor-padre{
+    margin-bottom: 1rem !important;
+  }
+
+  
+
+
+/* Estilo del dropdown */
+.btn-outline-primary {
+  background-color: #f8f9fa !important;
+  border: 1px solid #007bff !important;
+  color: #007bff !important;
+  font-size: 1rem !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.25rem !important;
+}
+
+/* Hover en el dropdown */
+.btn-outline-primary:hover {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+/* Estilo de la lista del dropdown */
+.dropdown-menu {
+  min-width: 160px !important;
+}
+
+/* Estilo de los items del dropdown */
+.dropdown-item {
+  padding: 0.75rem 1.25rem !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+}
+
+/* Hover en los items del dropdown */
+.dropdown-item:hover {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+
+
